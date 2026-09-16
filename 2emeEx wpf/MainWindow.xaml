@@ -1,0 +1,18 @@
+﻿<Window x:Class="permier_wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:permier_wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid >
+        <Button x:Name="up_left" Content="Uple" HorizontalAlignment="Center" VerticalAlignment="Center"  Foreground="#FFEC3737" Margin="0,0,40,0" Width="40" Height="40"/>
+        <Button x:Name="down_left" Content="Dole" VerticalAlignment="Center" Foreground="#FF184DD0" HorizontalAlignment="Center" Margin="0,80,40,0" Width="40" Height="40"/>
+        <Button x:Name="bottom_right" Content="boRi" VerticalAlignment="Center" Foreground="#FF1D226D" HorizontalAlignment="Center" Margin="40,80,0,0" Width="40" Height="40"/>
+        <Button x:Name="up_rigth" Content="UpRi" VerticalAlignment="Center" Foreground="#FF44E019" HorizontalAlignment="Center" Margin="40,0,0,0" Width="40" Height="40"/>
+        
+        
+
+    </Grid>
+</Window>

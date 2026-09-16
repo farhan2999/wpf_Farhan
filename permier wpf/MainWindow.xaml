@@ -6,7 +6,13 @@
         xmlns:local="clr-namespace:permier_wpf"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid >
+        <Button x:Name="up_left" Content="Up left" HorizontalAlignment="Left" VerticalAlignment="Top"  Foreground="#FFEC3737"/>
+        <Button x:Name="down_left" Content="Down left" VerticalAlignment="Bottom" Foreground="#FF184DD0" HorizontalAlignment="Left"/>
+        <Button x:Name="bottom_right" Content="bottom Right" VerticalAlignment="Bottom" Foreground="#FF1D226D" HorizontalAlignment="Right"/>
+        <Button x:Name="up_rigth" Content="Up Right" VerticalAlignment="Top" Foreground="#FF44E019" HorizontalAlignment="Right"/>
+        
+        
 
     </Grid>
 </Window>

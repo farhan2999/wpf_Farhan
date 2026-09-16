@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\6TTI\\UAA14\\wpf\\permier wpf\\permier wpf.csproj",
+      "projectUniqueName": "H:\\6TTI\\UAA14\\wpf\\wpf\\permier wpf\\permier wpf.csproj",
       "projectName": "permier wpf",
-      "projectPath": "H:\\6TTI\\UAA14\\wpf\\permier wpf\\permier wpf.csproj",
+      "projectPath": "H:\\6TTI\\UAA14\\wpf\\wpf\\permier wpf\\permier wpf.csproj",
       "packagesPath": "C:\\Users\\200550\\.nuget\\packages\\",
-      "outputPath": "H:\\6TTI\\UAA14\\wpf\\permier wpf\\obj\\",
+      "outputPath": "H:\\6TTI\\UAA14\\wpf\\wpf\\permier wpf\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
