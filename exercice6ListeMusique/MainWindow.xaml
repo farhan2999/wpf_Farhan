@@ -1,0 +1,22 @@
+﻿<Window x:Class="exercice6ListeMusique.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:exercice6ListeMusique"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox Height="120" Width="200" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="266,0,0,0">
+            <ListBoxItem Content="Danse macabre" Foreground="#A0522D" FontWeight="Bold"/>
+            <ListBoxItem Content="Toccata et Fugue en ré mineur" Foreground="#32CD32" FontWeight="Bold"/>
+            <ListBoxItem Content="L'empereur" Foreground="#0000FF" FontWeight="Bold"/>
+            <ListBoxItem Content="Tristesse" Foreground="#ADD8E6" FontWeight="Bold"/>
+            <ListBoxItem Content="Musique 5" Foreground="#FF8C00"/>
+            <ListBoxItem Content="Musique 6" Foreground="#8B008B"/>
+            <ListBoxItem Content="Musique 7" Foreground="#FF0000"/>
+        </ListBox>
+
+
+    </Grid>
+</Window>
