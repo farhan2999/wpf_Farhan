@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\200550.asty-moulin.000\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\200550.asty-moulin.000\\.nuget\\packages",
+      "C:\\Users\\AbuzourFarhan\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\AbuzourFarhan\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {

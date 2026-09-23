@@ -6,46 +6,46 @@
         xmlns:local="clr-namespace:exercice2LaCalculatrice"
         mc:Ignorable="d"
         Title="MainWindow" Height="800" Width="450" Background="Gray">
-    <Grid>
+    <Grid Margin="20">
         <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.2*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <StackPanel Orientation="Horizontal" Grid.Row="0">
-            <Rectangle Width="300" Height="100" Fill="White" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="20,10,0,0" />
-            <Button Width="80" Height="80" Background="Red" VerticalAlignment="Top" HorizontalAlignment="Right"  Margin="40,110,0,0" FontWeight="Bold" FontSize="30" >C</Button>
-        </StackPanel>
-        <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" >
-            <StackPanel Orientation="Horizontal">
-                <Button Width="80" Height="80" Background="BlueViolet" Margin="25,10,0,0" FontWeight="Bold" FontSize="30" >1</Button>
-                <Button Width="80" Height="80" Background="BlueViolet" Margin="25,10,0,0" FontWeight="Bold" FontSize="30" >2</Button>
-                <Button Width="80" Height="80" Background="BlueViolet" Margin="25,10,0,0" FontWeight="Bold" FontSize="30" >2</Button>
-                <Button Width="80" Height="80" Background="Green" Margin="25,10,0,0" FontWeight="Bold" FontSize="30" >+</Button>
-            </StackPanel>
-            <StackPanel Orientation="Horizontal">
-                <Button Width="80" Height="80" Background="BlueViolet" Margin="25,10,0,0" FontWeight="Bold" FontSize="30" >4</Button>
-                <Button Width="80" Height="80" Background="BlueViolet" Margin="25,10,0,0" FontWeight="Bold" FontSize="30" >5</Button>
-                <Button Width="80" Height="80" Background="BlueViolet" Margin="25,10,0,0" FontWeight="Bold" FontSize="30" >6</Button>
-                <Button Width="80" Height="80" Background="Green" Margin="25,10,0,0" FontWeight="Bold" FontSize="30" >-</Button>
-            </StackPanel>
-            <StackPanel Orientation="Horizontal">
-                <Button Width="80" Height="80" Background="BlueViolet" Margin="25,10,0,0" FontWeight="Bold" FontSize="30" >7</Button>
-                <Button Width="80" Height="80" Background="BlueViolet" Margin="25,10,0,0" FontWeight="Bold" FontSize="30" >8</Button>
-                <Button Width="80" Height="80" Background="BlueViolet" Margin="25,10,0,0" FontWeight="Bold" FontSize="30" >9</Button>
-                <Button Width="80" Height="80" Background="Green" Margin="25,10,0,0" FontWeight="Bold" FontSize="30" >/</Button>
-            </StackPanel>
-            <StackPanel Orientation="Horizontal">
-                <Button Width="80" Height="80" Background="AliceBlue" Margin="25,10,0,0" FontWeight="Bold" FontSize="30" >,</Button>
-                <Button Width="80" Height="80" Background="BlueViolet" Margin="25,10,0,0" FontWeight="Bold" FontSize="30" >0</Button>
-                <Button Width="80" Height="80" Background="Green" Margin="25,10,0,0" FontWeight="Bold" FontSize="30" >*</Button>
-                <Button Width="80" Height="80" Background="YellowGreen" Margin="25,10,0,0" FontWeight="Bold" FontSize="30" >=</Button>
-            </StackPanel>
+
+
+        <StackPanel Orientation="Horizontal" Grid.Row="0" HorizontalAlignment="Center" Margin="0,10,0,20">
+            <Border Width="280" Height="80" Background="White" CornerRadius="5" Margin="0,0,10,0">
+                <TextBlock x:Name="txtEcran" Text="0" FontSize="40" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="10"/>
+            </Border>
+            <Button Width="80" Height="80" Background="Red" FontWeight="Bold" FontSize="30" Content="C"/>
         </StackPanel>
         
-            
-
+        <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <StackPanel Orientation="Horizontal" Margin="0,5">
+                <Button Width="80" Height="80" Background="BlueViolet" Margin="5" FontWeight="Bold" FontSize="30">1</Button>
+                <Button Width="80" Height="80" Background="BlueViolet" Margin="5" FontWeight="Bold" FontSize="30">2</Button>
+                <Button Width="80" Height="80" Background="BlueViolet" Margin="5" FontWeight="Bold" FontSize="30">3</Button>
+                <Button Width="80" Height="80" Background="Green" Margin="5" FontWeight="Bold" FontSize="30">+</Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,5">
+                <Button Width="80" Height="80" Background="BlueViolet" Margin="5" FontWeight="Bold" FontSize="30">4</Button>
+                <Button Width="80" Height="80" Background="BlueViolet" Margin="5" FontWeight="Bold" FontSize="30">5</Button>
+                <Button Width="80" Height="80" Background="BlueViolet" Margin="5" FontWeight="Bold" FontSize="30">6</Button>
+                <Button Width="80" Height="80" Background="Green" Margin="5" FontWeight="Bold" FontSize="30">-</Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,5">
+                <Button Width="80" Height="80" Background="BlueViolet" Margin="5" FontWeight="Bold" FontSize="30">7</Button>
+                <Button Width="80" Height="80" Background="BlueViolet" Margin="5" FontWeight="Bold" FontSize="30">8</Button>
+                <Button Width="80" Height="80" Background="BlueViolet" Margin="5" FontWeight="Bold" FontSize="30">9</Button>
+                <Button Width="80" Height="80" Background="Green" Margin="5" FontWeight="Bold" FontSize="30">/</Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,5">
+                <Button Width="80" Height="80" Background="AliceBlue" Margin="5" FontWeight="Bold" FontSize="30">,</Button>
+                <Button Width="80" Height="80" Background="BlueViolet" Margin="5" FontWeight="Bold" FontSize="30">0</Button>
+                <Button Width="80" Height="80" Background="Green" Margin="5" FontWeight="Bold" FontSize="30">*</Button>
+                <Button Width="80" Height="80" Background="YellowGreen" Margin="5" FontWeight="Bold" FontSize="30">=</Button>
+            </StackPanel>
+        </StackPanel>
     </Grid>
+
 </Window>
