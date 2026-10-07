@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "H:\\6TTI\\UAA14\\wpf\\wpf\\exercice2LaCalculatrice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F4C8101-55B7-462A-A46A-9EFD9AA59E2C}|exercice2LaCalculatrice.csproj|h:\\6tti\\uaa14\\wpf\\wpf\\exercice2lacalculatrice\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3F4C8101-55B7-462A-A46A-9EFD9AA59E2C}|exercice2LaCalculatrice.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{7A34A353-D35A-C39A-7328-093A5034CEB9}|exercice2LaCalculatrice.csproj|h:\\6tti\\uaa14\\wpf\\wpf\\exercice2lacalculatrice\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7A34A353-D35A-C39A-7328-093A5034CEB9}|exercice2LaCalculatrice.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F4C8101-55B7-462A-A46A-9EFD9AA59E2C}|exercice2LaCalculatrice.csproj|h:\\6tti\\uaa14\\wpf\\wpf\\exercice2lacalculatrice\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F4C8101-55B7-462A-A46A-9EFD9AA59E2C}|exercice2LaCalculatrice.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A34A353-D35A-C39A-7328-093A5034CEB9}|exercice2LaCalculatrice.csproj|h:\\6tti\\uaa14\\wpf\\wpf\\exercice2lacalculatrice\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A34A353-D35A-C39A-7328-093A5034CEB9}|exercice2LaCalculatrice.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +26,8 @@
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "H:\\6TTI\\UAA14\\wpf\\wpf\\exercice2LaCalculatrice\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "H:\\6TTI\\UAA14\\wpf\\wpf\\exercice2LaCalculatrice\\MainWindow.xaml*",
-              "RelativeToolTip": "MainWindow.xaml*",
+              "ToolTip": "H:\\6TTI\\UAA14\\wpf\\wpf\\exercice2LaCalculatrice\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-09-23T09:43:03.746Z",
               "EditorCaption": ""
