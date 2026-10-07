@@ -61,7 +61,7 @@ namespace WPFACT2Events1 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WPFACT2Events1;V1.0.0.0;component/resoudcalculer.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WPFACT2Events1;component/resoudcalculer.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ResoudCalculer.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

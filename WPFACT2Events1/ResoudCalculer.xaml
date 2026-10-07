@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="ResoudCalculer" Background="CadetBlue" Height="450" Width="800">
     <Grid>
-        <TextBlock x:Name="LblResultat" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="50" TextWrapping="Wrap" FontStyle="Italic" FontFamily="Segoe UI Variable Text Semilight" Margin="10,0,0,0" AutomationProperties.HelpText="2" RenderTransformOrigin="1,0.5">
+        <TextBlock x:Name="LblResultat" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="30" TextWrapping="Wrap" FontStyle="Italic" FontFamily="Segoe UI Variable Text Semilight" Margin="10,0,0,0" AutomationProperties.HelpText="2" RenderTransformOrigin="1,0.5">
             <TextBlock.BindingGroup>
                 <BindingGroup/>
             </TextBlock.BindingGroup>

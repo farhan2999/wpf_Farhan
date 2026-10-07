@@ -38,7 +38,8 @@
               "RelativeToolTip": "ResoudCalculer.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T09:10:47.972Z"
+              "WhenOpened": "2026-10-07T09:10:47.972Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -61,7 +62,8 @@
               "ToolTip": "H:\\6TTI\\UAA14\\wpf\\wpf\\WPFACT2Events1\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-10-07T08:34:15.405Z"
+              "WhenOpened": "2026-10-07T08:34:15.405Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -73,7 +75,8 @@
               "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAwCcAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T09:02:02.296Z"
+              "WhenOpened": "2026-09-30T09:02:02.296Z",
+              "EditorCaption": ""
             }
           ]
         }
